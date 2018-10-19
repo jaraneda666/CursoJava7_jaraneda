@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import cl.clubhipico.clubhipico_jaraneda.object.CarreraObject;
+
 
 public class DataBaseUtil<T> {
 
@@ -38,6 +40,12 @@ public class DataBaseUtil<T> {
 	}
 	public void close() throws SQLException {
 		conn.close();
+	}
+
+
+	public boolean delete(CarreraObject carrera) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	 
 	
